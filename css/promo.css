@@ -1,0 +1,47 @@
+.promo {
+  background-image: url(../img/promo-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.promo-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  color: var(--main-text-color);
+  padding-top: 70px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+.promo-description {
+  max-width: 260px;
+  padding-bottom: 40px;
+}
+
+.test {
+  margin-top: 100px;
+  min-height: 100px;
+  background-color: #DFE0DF;
+  margin-bottom: 100px;
+}
+
+
+@media (max-width: 800px) {
+  .promo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .promo-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 500px) {
+  .promo {
+    background-position: 40%;
+  }
+}
