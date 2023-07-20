@@ -1,5 +1,20 @@
-.classes-container {
+.classes-description {
+  padding-bottom: 120px;
+  max-width: 600px;
+}
+
+.classes-description>p {
+  padding-bottom: 10px;
+}
+
+.classes-title {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.classes-list-wrapper {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .classes-list {
