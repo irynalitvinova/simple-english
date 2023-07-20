@@ -1,6 +1,6 @@
 .units {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .units {
@@ -8,10 +8,18 @@
 }
 
 .units-title {
-  padding-bottom: 20px;
+  font-size: 30px;
 }
 
-.units-description {
+.units-subtitle {
+  font-size: 20px;
+}
+
+.units-title, .units-subtitle {
+  padding-bottom: 10px;
+}
+
+.units-description>p {
   padding-bottom: 5px;
 }
 
@@ -26,7 +34,7 @@
 .unit-item {
   position: relative;
   padding: 20px;
-  width: 280px;
+  width: 270px;
   height: 320px;
   border-radius: 10px;
 }
@@ -50,8 +58,8 @@
 
 .unit-item-title-img {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
 }
 
 .unit-item-task-box {

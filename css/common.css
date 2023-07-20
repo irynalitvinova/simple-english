@@ -54,8 +54,6 @@ button {
   border: none;
 }
 
-
-
 body {
   font-size: 18px;
   line-height: 1.4;
@@ -75,12 +73,12 @@ body {
   flex: 1 1 auto;
 }
 
- .container {
+.container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-} 
+}
 
 .section-page {
   padding-top: 100px;
@@ -103,9 +101,11 @@ body {
   font-size: 16px;
 }
 
-.button:hover {
-  background-color: var(--main-text-color);
-  color: var(--alternate-text-color);
+@media (min-width: 800px) {
+  .button:hover {
+    background-color: var(--main-text-color);
+    color: var(--alternate-text-color);
+  }
 }
 
 @media (max-width: 800px) {
